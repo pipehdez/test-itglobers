@@ -1,0 +1,29 @@
+#header-homepage{
+    min-width: 250px;
+    ul{
+        display: flex;
+        list-style: none;
+        display: flex;
+        background-color: #2196f3;
+        color: #f1f1f1;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        @media screen and (max-width: 920px){
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        li{
+            padding: 10px;
+            cursor: pointer;
+        }   
+        .active {
+            background-color: #f1f1f1;
+            color:#0F1624
+        }
+        li:hover{
+            background-color: #f1f1f1;
+            color:#0F1624
+        }
+    }
+}

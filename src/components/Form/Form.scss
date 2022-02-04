@@ -1,0 +1,48 @@
+.form-users{
+    text-align: center;
+    width: 100%;
+    .title{
+        padding: 10px;
+    }
+    .form-users-content{
+        width: 30%;
+        min-width: 250px;
+        margin: 0 auto;
+        background-color: #f1f1f1;
+        padding: 1rem;
+        
+        .form-users-content-input{
+            margin: 0.5rem;
+            display: flex;
+            flex-flow: column;
+            label {
+                margin-bottom: 5px;
+                text-align: left;
+                font-size: small;
+            }
+            input {
+                border: 1px solid #dee2e6;
+                padding: 0.5rem;
+                border-radius: 0.25rem;
+                min-width: 200px;
+            }
+        }
+        .form-users-content-button {
+            margin-top: 10px;
+            button {
+                border: 1px solid #dee2e6;
+                padding: 0.5rem;
+                border-radius: 0.25rem;
+                min-width: 200px;
+                background-color: #2196f3;
+                color: #f1f1f1;
+                cursor: pointer;
+                &:hover {
+                    background-color: #f1f1f1;
+                    color: #2196f3;
+                    border-color: #2196f3;
+                }
+            }
+        }
+    }
+}

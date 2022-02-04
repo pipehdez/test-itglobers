@@ -1,0 +1,32 @@
+#container-lightbox{
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    color: #0f5132;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    &.active{
+        opacity: 1;
+    }
+    
+    &.hidden{
+        -webkit-transition: opacity 3s ease-in-out;
+        -moz-transition: opacity 3s ease-in-out;
+        -ms-transition: opacity 3s ease-in-out;
+        -o-transition: opacity 3s ease-in-out;
+        opacity: 0;
+    }
+    @media screen and (max-width: 920px){
+       top: 80%;
+       right: 0;
+       margin: 20px;
+       &.hidden{
+            display: none;
+    }
+    }
+    
+   
+}
